@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main {
+    border-top: 5px solid #FF7500;
+    width: 1440px;
+    height: 2763px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 91px;
+
+}
+
+#logo {
+    width: 382px;
+    height: 60px;
+    position: relative;
+    right: 100px;
+}
+
+#head_btn {
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    left: 150px;
+    background-color: #FF7500;
+    color: #FFFFFF;
+    border: none;
+    width: 152px;
+    height: 54px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.linklar {
+    display: flex;
+    gap: 32px;
+    position: relative;
+    right: 70px;
+}
+
+.linklar a {
+    transition: 300ms;
+    padding-bottom: 25px;
+    position: relative;
+    height: 15px;
+    color: #000000;
+    left: 200px;
+    text-decoration: none;
+    border-bottom: #FF7500;
+
+    &:hover {
+        border-bottom: 3px solid #FF7500;
+    }
+}
+
+.shoulder {
+    display: flex;
+    width: 1440px;
+    height: 550px;
+}
+
+.yarim {
+    display: flex;
+    width: 1430px;
+    height: 488px;
+    background-color: #252420;
+}
+
+
+.half1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 387px;
+    height: 328px;
+    position: relative;
+    left: 125px;
+    top: 80px;
+
+}
+
+
+#book {
+    width: 510px;
+    height: 510px;
+    position: relative;
+    top: 37px;
+    left: 350px;
+}
+
+.half1 h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 30px;
+    left: 17px;
+}
+
+
+.chiziq {
+    position: relative;
+    width: 80px;
+    height: 3px;
+    background-color: #FF7500;
+    right: 150px;
+    bottom: 55px;
+}
+
+.half1 p {
+    color: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.half1 button {
+    width: 152px;
+    height: 39px;
+    background-color: #FF7500;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+    top: 55px;
+    right: 115px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 873px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.qutilar {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    top: 100px;
+    right: 30px;
+}
+
+.chiziq2 {
+    position: relative;
+    width: 80px;
+    height: 3px;
+    background-color: #FF7500;
+    right: 550px;
+}
+
+.center h1 {
+    width: 435px;
+    height: 172px;
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    position: relative;
+    right: 370px;
+    top: 32px;
+}
+
+.box {
+    width: 340px;
+    height: 245px;
+}
+
+.box img {
+
+    width: 100px;
+    height: 100px;
+}
+
+.qutilar h3 {
+    position: relative;
+    top: 20px;
+    height: 29px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+
+.qutilar p {
+    position: relative;
+    top: 40px;
+    width: 314px;
+    height: 72px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+.aksiya {
+    height: 481px;
+    display: flex;
+    justify-content: center;
+}
+
+.qora {
+    display: flex;
+    background-color: #252420;
+    width: 1100px;
+    height: 419px;
+    border-radius: 12px;
+    position: relative;
+    top: 60px;
+}
+
+.yozuv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.yozuv h2 {
+    width: 450px;
+    height: 96px;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    position: relative;
+    left: 40px;
+}
+
+.yozuv p {
+    width: 440px;
+    height: 48px;
+    color: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+.yozuv span {
+    color: #FF7500;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.qora img {
+    width: 440px;
+    height: 428px;
+    position: relative;
+    bottom: 60px;
+    left: 150px;
+
+}
+
+.yozuv button {
+    width: 152px;
+    height: 39px;
+    border-radius: 4px;
+    border: none;
+    background-color: #FF7500;
+    color: #FFFFFF;
+    position: relative;
+    top: 30px;
+    right: 100px;
+}
+
+
+.bottom {
+    position: relative;
+    border: 1px solid black;
+    width: 1500px;
+    height: 507px;
+    top: 150px;
+}
+
+.sarlavha {
+    display: flex;
+    flex-direction: column;
+    width: 224px;
+    gap: 16px;
+}
+
+.icons {
+    position: relative;
+    top: 50px;
+    display: flex;
+}
+
+.basic {
+    display: flex;
+    position: relative;
+    top: 150px;
+    gap: 68px;
+    left: 130px;
+}
+
+#past_logo {
+    width: 277px;
+    height: 60px;
+    position: relative;
+    left: 130px;
+}
+
+.tarmoq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    left: 900px;
+}
+
+.tarmoq img {
+    width: 24px;
+    height: 24px;
+}
+
+.sarlavha p {
+    width: 224px;
+    height: 19px;
+    font-size: 16px;
+    color: #252420;
+}
